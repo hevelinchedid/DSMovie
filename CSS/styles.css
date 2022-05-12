@@ -94,7 +94,7 @@
         margin-bottom: 25px;
 
     }
-    .dsmovie-btn .dsmovie-btn:hover {
+    .dsmovie-btn, .dsmovie-btn:hover {
         width: 180px;
         height: 40px;
         background-color: var(--color-primary);
