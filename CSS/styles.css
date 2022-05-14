@@ -1,142 +1,157 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
 :root {
     --bg-gray: #ddd;
-    --text-gray:#4A4A4A;
+    --text-gray: #4A4A4A;
     --color-primary: #4d41c0;
-    --white:#fff
-    --text-light-gray: #aaa
-    --star-yellow: #FFBB3A
-       
+    --white: #fff --text-light-gray: #aaa --star-yellow: #FFBB3A
 }
 
-*{
-   box-sizing: border-box;
+* {
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 
-    }
+}
 
-    h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 
-        margin: 0;
-    }
+    margin: 0;
+}
 
-    html, body {
+html,
+body {
 
-        background-color: var(--bg-gray )
-    }
+    background-color: var(--bg-gray)
+}
 
-    header {
-        background-color: var(--color-primary);
-        color: var(--white);
-        height: 60px;
-        display: flex;
-        align-items: center;
-                
-    }
+header {
+    background-color: var(--color-primary);
+    color: var(--white);
+    height: 60px;
+    display: flex;
+    align-items: center;
 
-    nav {
+}
 
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+nav {
 
-    nav h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-        font-size: 24px;
-        font-weight: 700;
-    }
-        nav a {
-            font-size: 12px;
-            font-weight: 400;
-            
-        }
-    
+nav h1 {
 
-    a, a:hover{
-        text-decoration: none;
-        color: unset;
+    font-size: 24px;
+    font-weight: 700;
+}
 
-    }
-    .dsmovie-contact-container{
-        display: flex;
-        align-items: center;
-     
-    }
-    .dsmovie-contact-container img{
-        margin-right: 10px;
-    }
+nav a {
+    font-size: 12px;
+    font-weight: 400;
 
-        #dsmovie-card-list {
-            padding: 40px 0;
-        }
+}
 
-    .dsmovie-card{
-        width: 100%;
-        
-        
-    }
-    .dsmovie-card img {
 
-        width: 100%;
-        border-radius: 8px 8px 0 0;
-    }
-    .dsmovie-card-description {
-        background-color: var(--white);
-        padding: 10px 0 20px 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        border-radius: 0 0 8px 8px;
-        height: 220px;
-    }
-    .dsmovie-card-description h3 {
-        font-size: 14px;
-        font-weight: 700;
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
 
-        margin-bottom: 25px;
+}
 
-    }
+.dsmovie-contact-container {
+    display: flex;
+    align-items: center;
 
-    .dsmovie-card-description-bottom {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+}
 
-    }
-    .dsmovie-card-description-bottom h4 {
-        font-size: 16px;
-        font-weight: 700;
-        color: var(--star-yellow)
-        
-    }
-    .dsmovie-card-description-bottom img{
+.dsmovie-contact-container img {
+    margin-right: 10px;
+}
 
-        width: 22px;
+#dsmovie-card-list {
+    padding: 40px 10px;
+}
 
-    }
-    .dsmovie-card-description-bottom p {
-        font-size: 12px;
-        font-weight: 400;
-        color: var(--text-light-gray);
-        margin-bottom: 10px;
+.dsmovie-card {
+    width: 100%;
 
-    }
-    
-    .dsmovie-btn, .dsmovie-btn:hover {
-        width: 180px;
-        height: 40px;
-        background-color: var(--color-primary);
-        color: var(--white);
-        font-size: 14px;
-        font-weight: 700;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 4px;
-        border: 0;
-    }
+
+}
+
+.dsmovie-card img {
+
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.dsmovie-card-description {
+    background-color: var(--white);
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0 0 8px 8px;
+    height: 190px;
+}
+
+.dsmovie-card-description h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.dsmovie-card-description-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.dsmovie-card-description-bottom h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow)
+}
+
+.dsmovie-card-description-bottom img {
+
+    width: 22px;
+
+}
+
+.dsmovie-card-description-bottom p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    margin-bottom: 10px;
+
+}
+
+.dsmovie-btn,
+.dsmovie-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 0;
+}
+
 .dsmovie-form-container {
     padding: 40px 0;
     max-width: 400px;
@@ -151,6 +166,7 @@
     border-radius: 0 0 8px 8px;
 
 }
+
 .dsmovie-form {
     width: 100%;
 }
@@ -158,7 +174,7 @@
 .dsmovie-form-description h3 {
 
     font-size: 13px;
-    font-weight: 700; 
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
